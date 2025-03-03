@@ -9,7 +9,7 @@ import { supabase } from '../../../utils/supabase';
 import * as GoogleGenerativeAI from "@google/generative-ai";
 import { HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 
-const API_KEY = "AIzaSyAfUJbHB5Kr7oL0kvY00FuLo9aEuaE0uYM";
+const API_KEY = "APIKEY";
 
 export default function BrewScreen() {
   const { scenes, characters, mods, removeFromBrew } = useBrewContext();
