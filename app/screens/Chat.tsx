@@ -69,7 +69,7 @@ interface BrewSettingsMenuProps {
   } | undefined;
 }
 
-const API_KEY = "AIzaSyAfUJbHB5Kr7oL0kvY00FuLo9aEuaE0uYM";
+const API_KEY = "API_KEY";
 
 const BrewSettingsMenu: React.FC<BrewSettingsMenuProps> = ({ 
   isVisible, 
